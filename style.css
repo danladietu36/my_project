@@ -68,7 +68,7 @@ the icon. This class makes the topnav look
 good on small screens (display the links
 vertically instead of horizontally) */
 
-@media (screen) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav.responsive{position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
@@ -82,6 +82,6 @@ vertically instead of horizontally) */
     }
 }
 
-@media screen  and{
+@media screen  and (max-width: 768px) {
     
 }
